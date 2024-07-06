@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ebd551f671.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>VegiFurit</title>
     <script src="index.js" defer></script>
 </head>
 <body>
@@ -31,7 +31,7 @@
   
   </div>
   <div>
-  <p class="l"><i class="fa-solid fa-bars"></i> MENU</p>
+  <p class="kf"><i class="fa-solid fa-bars"></i> MENU</p>
   </div>
  </div>
  <div class="dis">
@@ -221,7 +221,7 @@
   <p class="q2">Deal of the day</p>
   <p class="t2">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
   <a href="" class="heat">Spinach</a>
-  <p class="d2">$10 <span class="f2">now $5 only</span></p>
+  <p class="d2">$200 <span class="f2">now $150 only</span></p>
 
   <div class="gred">
   <p class="school"><span class="pop">0</span><span class="fors">Days</span> </p>

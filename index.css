@@ -299,6 +299,7 @@ color: #747474;
     padding-bottom:1px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 40px;
+    margin-left: 0.1px;
 }
 .fg:hover{
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -382,6 +383,7 @@ font-size: 20px;
 margin-top: 30px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 display: flex;
+margin-left: 60px;
 
 }
 .jojo{
@@ -395,7 +397,7 @@ text-align: center;
 align-self: center;
 width: fit-content;
 height:fit-content;
-padding: 10px;
+padding: 13.5px;
 margin-top: 30px;
 
 margin-right: 20px;
@@ -415,10 +417,6 @@ width:20%;
 margin-left: 50px;
 }
 
-.l{
-color:gray ;
-margin-left: 440px;
-}
 .gilbert{
 display: flex;
 
@@ -427,12 +425,33 @@ display: flex;
 .foel{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.lp{
+display: none;
+}
+.foels{
+display:none;
+}
+.kf{
+ display: none;
+    color: white;
 
-@media only screen and (max-width:700px){
-    
+}
+
+@media only screen and (max-width:600px){
+    body{
+     overflow-x: hidden;
+    }
+    .gilbert{
+        justify-content: space-between;
+    }
+    .kf{
+        display: block;
+        color: #747474;
+    }
     .in{
     flex-direction: column;
     }
+   
     .wre{
         margin-top: 10px;
     }
@@ -443,7 +462,8 @@ display: flex;
      .wtr{
         flex-direction: column;
         background-color: black;
-        width: 9 n 9%;
+        background-size: 100% 100%;
+        width: 97%;
         margin-top:-9px ;
         padding: 10px 10px;
      }
@@ -472,8 +492,10 @@ display: flex;
      margin-top: -2px;
     }
     .lp{
-    margin-left: 40%;
+    margin-left:40% ;
     flex-direction: column;
+    color:gray ;
+   display: flex;
     }
     .eta{
         width: 80%;
@@ -493,33 +515,46 @@ display: flex;
     }
     .foels{
     margin-left: 30%;
+    display: block;
     }
     .pol{
     display: block;
     }
     .fg{
-     height:100vh;
+     height:45vh;
     }
     .ina{
-     width: 100%;
+     width: 60%;
     }
     .mt{
     margin-left: 40%;
     }
     .wy{
     margin-left:-0.5%;
+    margin-top: 40px;
     }
     .my{
         width: 101%;
     }
     .o{
     display: block;
-    width: 70%;
+    width: 65%;
+    margin-left: 100px;
     }
     .work{
     display: block;
+    margin-left: 1px;
     }
     .d{
         margin-top: 30px;
+    }
+    .day{
+       margin-top: -35px; 
+    }
+    .nters{
+    margin-left: 150px;
+    }
+    .your{
+        font-size: 30px;
     }
 }
